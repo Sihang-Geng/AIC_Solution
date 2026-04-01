@@ -26,8 +26,8 @@ PREPROCESSOR_3RD_BORROW_PATH = 'preprocessor_3rd.joblib'
 # --- Feature & Model Parameters ---
 TEXT_EMBEDDING_DIMS = 128
 THIRD_BORROW_PROB_WEIGHT = 1.0  # Weight for 3rd borrow predictions
-CONFIDENCE_THRESHOLD = 0.1#0.14  # 人为设定的置信度阈值，低于此值则采用统计推荐
-DAYS_THRESHOLD = 8*10^3  # 天数阈值：距离用户当前时间超过此天数的图书将被淘汰
+CONFIDENCE_THRESHOLD = 0.1#0.14  # 低于此值则采用统计推荐
+DAYS_THRESHOLD = 365  # 天数阈值距离用户当前时间超过此天数的图书将被淘汰
 
 numerical_features = ['总借阅时间(天)', '续借延迟(天)', '续借次数']
 categorical_features = ['gender', 'department', 'grade', 'user_type', '是否续借']
