@@ -22,7 +22,7 @@ tqdm.pandas()
 
 # --- Configuration ---
 class Config:
-    DATA_FILE = '111data.csv'
+    DATA_FILE = 'data.csv'
     OUTPUT_FILE = '256fv5.csv'
     TOP10_OUTPUT_FILE = 'ftop10_recommendations_v5.csv'  # 新增：top10推荐输出文件
     # Cache paths
