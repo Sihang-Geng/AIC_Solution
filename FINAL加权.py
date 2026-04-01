@@ -1,6 +1,6 @@
 import pandas as pd
 from collections import defaultdict, Counter
-
+#集中整合
 csv_paths = [
     "纯3轻量辅助23混高速度运行完毕（编号3）/1olddata决赛时决赛纯3.csv",
     "f1轻量辅助推荐（编号7）/f1data.csv", "top10加权输出结果.csv",
