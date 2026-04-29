@@ -216,6 +216,9 @@ AIC_Solution/
 
 
 
+---
+
+如需完整决赛最终提交包，可通过邮箱联系。**Email:** `gengsihang2025@163.com`
 
 ---
 
