@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+tmp_pdf_extract/
+*.pdf
+
+# Local artifacts and large model files
+*.csv
+*.pkl
+*.joblib
+*.pt
+*.ckpt
+catboost_info/

@@ -1,0 +1,11 @@
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.1
+lightgbm>=3.3
+catboost>=1.1
+joblib>=1.2
+tqdm>=4.64
+networkx>=2.8
+node2vec>=0.4
+torch>=2.0
+torch-geometric>=2.3
