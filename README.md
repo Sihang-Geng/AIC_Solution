@@ -12,13 +12,12 @@
 </p>
 
 <p align="center">
-  <a href="#-overview">Overview</a> ·
+  <a href="#-project-background">Project Background</a> ·
   <a href="#-architecture">Architecture</a> ·
   <a href="#-quick-start">Quick Start</a> ·
   <a href="#-model-zoo">Model Zoo</a> ·
   <a href="#-license">License</a>
 </p>
-
 ---
 
 ## 📌 Project Background
