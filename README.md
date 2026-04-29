@@ -18,7 +18,7 @@
   <a href="#-model-zoo">Model Zoo</a> ·
   <a href="#-license">License</a>
 </p>
----
+
 
 ## 📌 Project Background
 
