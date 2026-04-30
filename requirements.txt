@@ -1,24 +1,50 @@
+# Core data stack
 pandas>=1.5
 numpy>=1.23
 scipy>=1.9
-
-scikit-learn>=1.1
-lightgbm>=3.3
-catboost>=1.1
-category-encoders>=2.6
-
 joblib>=1.2
 tqdm>=4.64
-matplotlib>=3.6
 
+# Table processing and file IO
+openpyxl>=3.1
+pyarrow>=12.0
+fastparquet>=2023.4
+
+# Classical machine learning
+scikit-learn>=1.1
+imbalanced-learn>=0.10
+category-encoders>=2.6
+
+# Gradient boosting models
+lightgbm>=3.3
+catboost>=1.1
+xgboost>=1.7
+
+# Model selection and experiment utilities
+optuna>=3.0
+mlxtend>=0.22
+
+# Visualization and diagnostics
+matplotlib>=3.6
+seaborn>=0.12
+plotly>=5.14
+
+# Graph modeling
 networkx>=2.8
 node2vec>=0.4
 gensim>=4.3
+python-louvain>=0.16
 
+# Deep learning
 torch>=2.0
 torchvision>=0.15
 torchaudio>=2.0
 torch-geometric>=2.3
 
+# Text representation and pretrained models
 transformers>=4.30
 tokenizers>=0.13
+sentencepiece>=0.1.99
+accelerate>=0.20
+safetensors>=0.3
+huggingface-hub>=0.16
